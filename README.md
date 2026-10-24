@@ -1,4 +1,4 @@
-# School Library Management System 📚🏫
+# LipPoint (library Management System) 📚🏫
 
 A modern, comprehensive web application designed to streamline library operations, digital catalog management, book lending, and member administration for educational institutions.
 
