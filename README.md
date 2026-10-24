@@ -60,12 +60,11 @@ This project is built using modern full-stack web architecture:
 
 | Layer | Technology Options |
 | :--- | :--- |
-| **Frontend** | React.js / Next.js / Vue.js, Tailwind CSS |
-| **Backend** | Node.js (Express) / Python (Django/FastAPI) / Java (Spring Boot) |
-| **Database** | PostgreSQL / MySQL / MongoDB |
-| **ORM / Query Builder** | Prisma / Sequelize / SQLAlchemy |
-| **Authentication** | JWT (JSON Web Tokens) / OAuth 2.0 / NextAuth |
-| **File Storage** | AWS S3 / Cloudinary (for book covers & digital PDFs) |
+| **Frontend** | React.js / HTML, CSS |
+| **Backend** | SQL / PHP |
+| **Database** |  MySQL  |
+| **Authentication** | Not yet confirmed |
+| **File Storage** | Locally hosted Storage (for book covers & digital PDFs) |
 
 ---
 
@@ -92,7 +91,7 @@ This project is built using modern full-stack web architecture:
 
 ### Prerequisites
 Make sure you have the following installed on your local machine:
-* **Node.js** (v18.0.0 or higher) or runtime of choice
+* **VsCode** (Latest Version) or runtime of choice
 * **Git**
 * **PostgreSQL / MySQL** database server
 
@@ -100,8 +99,8 @@ Make sure you have the following installed on your local machine:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/school-library-management-system.git
-   cd school-library-management-system
+   git clone https://github.com/your-username/LibPoint.git
+   cd LibPoint
    ```
 
 2. **Install Dependencies:**
@@ -202,7 +201,7 @@ FROM_EMAIL="noreply@schoollibrary.edu"
 ## 🔮 Future Enhancements
 
 - [ ] Integration with Open Library API for automated metadata fetching.
-- [ ] In-app e-Reader module for digital PDFs/eBooks.
+- [ ] 2FA Authentication.
 - [ ] Push notifications via Progressive Web App (PWA) support.
 - [ ] Self-checkout station kiosk mode using RFID tags.
 
